@@ -1,0 +1,28 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement name="SelectSkills" style="background-color: rgba(0, 0, 0, 0.47); -unity-background-image-tint-color: rgba(255, 255, 255, 0.2); height: 1080px; max-height: 100%; max-width: 100%; min-height: 100%; min-width: 100%; flex-direction: column; align-items: center; justify-content: space-around; display: none;">
+        <ui:Label text="Choose your personality!" display-tooltip-when-elided="true" style="-unity-font-style: bold-and-italic; font-size: 82px; color: rgb(255, 223, 0);" />
+        <ui:VisualElement name="FirstRow" style="flex-direction: row; min-width: 100%; justify-content: space-around; width: auto; max-width: 100%;">
+            <ui:Button display-tooltip-when-elided="true" style="background-image: url(&apos;project://database/Assets/Icons/heart-minus.png?fileID=2800000&amp;guid=08ac9228a537e6346ba2c08d6adf14eb&amp;type=3#heart-minus&apos;); width: 128px; height: 128px; left: auto;" />
+            <ui:Button display-tooltip-when-elided="true" style="background-image: url(&apos;project://database/Assets/Icons/heart-minus.png?fileID=2800000&amp;guid=08ac9228a537e6346ba2c08d6adf14eb&amp;type=3#heart-minus&apos;); width: 128px; height: 128px; left: auto;" />
+            <ui:Button display-tooltip-when-elided="true" style="background-image: url(&apos;project://database/Assets/Icons/heart-plus.png?fileID=2800000&amp;guid=b9674b7b88fe76247950f7892c82b13d&amp;type=3#heart-plus&apos;); width: 128px; height: 128px;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="FirstRow" style="flex-direction: row; justify-content: space-around; align-items: center; width: auto; max-height: none; min-width: 100%; max-width: 100%;">
+            <ui:Button display-tooltip-when-elided="true" style="background-image: url(&apos;project://database/Assets/Icons/heart-minus.png?fileID=2800000&amp;guid=08ac9228a537e6346ba2c08d6adf14eb&amp;type=3#heart-minus&apos;); width: 128px; height: 128px; left: auto;" />
+            <ui:Button display-tooltip-when-elided="true" style="background-image: url(&apos;project://database/Assets/Icons/heart-minus.png?fileID=2800000&amp;guid=08ac9228a537e6346ba2c08d6adf14eb&amp;type=3#heart-minus&apos;); width: 128px; height: 128px; left: auto;" />
+            <ui:Button display-tooltip-when-elided="true" style="background-image: url(&apos;project://database/Assets/Icons/heart-plus.png?fileID=2800000&amp;guid=b9674b7b88fe76247950f7892c82b13d&amp;type=3#heart-plus&apos;); width: 128px; height: 128px;" />
+        </ui:VisualElement>
+        <ui:Button text="Ready" display-tooltip-when-elided="true" name="ready-button" style="flex-shrink: 0; flex-grow: 0; flex-wrap: nowrap; -unity-font-style: bold; font-size: 64px; white-space: nowrap; -unity-text-align: middle-center;" />
+    </ui:VisualElement>
+    <ui:VisualElement name="GameUI" style="justify-content: flex-start; flex-direction: row; bottom: auto; top: 944px; position: absolute; left: 96px; opacity: 1; display: flex; visibility: visible;">
+        <ui:VisualElement name="Wood" style="flex-direction: row;">
+            <ui:Label text="3" display-tooltip-when-elided="true" name="wood-count" style="background-color: rgba(0, 0, 0, 0); -unity-background-image-tint-color: rgb(255, 255, 255); justify-content: flex-start; align-items: stretch; -unity-text-align: middle-left; color: rgb(255, 0, 0); -unity-font-style: bold-and-italic; font-size: 24px;" />
+            <ui:Label text="x" display-tooltip-when-elided="true" name="Label" style="background-color: rgba(0, 0, 0, 0); -unity-background-image-tint-color: rgb(255, 255, 255); justify-content: flex-start; align-items: stretch; -unity-text-align: middle-left; color: rgb(255, 255, 255); -unity-font-style: bold; font-size: 24px;" />
+            <ui:VisualElement name="PlankImage" style="background-image: url(&apos;project://database/Assets/Icons/wood-pile.png?fileID=2800000&amp;guid=15cc8f369abe1434e875d459b43e19b5&amp;type=3#wood-pile&apos;); width: 64px; height: 64px;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="Nail" style="flex-direction: row; border-left-width: 30px;">
+            <ui:Label text="3" display-tooltip-when-elided="true" name="nail-count" style="background-color: rgba(0, 0, 0, 0); -unity-background-image-tint-color: rgb(255, 255, 255); justify-content: flex-start; align-items: stretch; -unity-text-align: middle-left; color: rgb(255, 0, 0); -unity-font-style: bold-and-italic; font-size: 24px;" />
+            <ui:Label text="x" display-tooltip-when-elided="true" name="Label" style="background-color: rgba(0, 0, 0, 0); -unity-background-image-tint-color: rgb(255, 255, 255); justify-content: flex-start; align-items: stretch; -unity-text-align: middle-left; color: rgb(255, 255, 255); -unity-font-style: bold; font-size: 24px;" />
+            <ui:VisualElement name="NailImage" style="background-image: url(&apos;project://database/Assets/Icons/nails.png?fileID=2800000&amp;guid=5bc84030a2ed6144baf3bc750f15d56c&amp;type=3#nails&apos;); width: 64px; height: 64px;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
